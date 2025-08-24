@@ -19,6 +19,10 @@ body {
     padding: 116px 0px;
 
 }
+.section-padding-top {
+    padding: 0px 0px 116px 0px;
+
+}
 .logo {
     width: 100px;
     height: 100px;
@@ -75,9 +79,7 @@ body {
     justify-content: center;
     margin-top: 40px;
 }
-.action {
-    margin: 0 auto;
-}
+
 .action h1 {
     color: #252432;
     font-size: 42px;
@@ -218,7 +220,7 @@ body {
     width: 100%;
     font-weight: 600;
     border: none;
-    padding: 12px 100px;
+    padding: 20px 100px;
     background-color: #4E47FF;
     border-radius: 10px;
     cursor: pointer;
@@ -233,6 +235,10 @@ body {
 .footer {
     text-align: center;
     padding: 0px 142px;
+}
+.footer-bg {
+    background-color: #ffffff;
+    border-top: 1px solid #F2EDED;
 }
 .footer-logo {
     width: 150px;
