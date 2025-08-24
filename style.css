@@ -19,6 +19,10 @@ body {
     padding: 116px 0px;
 
 }
+.logo {
+    width: 100px;
+    height: 100px;
+}
 .header-bg {
     padding: 20px 0px;
     background-image: url("images/bg.png");
@@ -225,4 +229,38 @@ body {
     transition: 0.6s all ease-in-out;
     color: #000000;
     background-color: #F2C60C;
+}
+.footer {
+    text-align: center;
+    padding: 0px 142px;
+}
+.footer-logo {
+    width: 150px;
+    height: 150px;
+}
+.footer p {
+    color: #b9b8cc;
+    font-size: 16px;
+    font-family: "Inter", sans-serif!important;
+    margin-bottom: 20px;
+    font-weight:400!important;
+}
+.footer-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: "Inter", sans-serif!important;
+
+}
+.footer-list li a:hover{
+    color: #000000;
+    transition: 0.6 all ease-in-out;
 }
