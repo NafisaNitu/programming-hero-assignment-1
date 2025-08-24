@@ -234,11 +234,13 @@ body {
 }
 .footer {
     text-align: center;
+    background-color: #ffffff;
     padding: 0px 142px;
 }
 .footer-bg {
     background-color: #ffffff;
     border-top: 1px solid #F2EDED;
+    width: 100%;
 }
 .footer-logo {
     width: 150px;
