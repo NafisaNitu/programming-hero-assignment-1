@@ -125,11 +125,19 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
+.main-header-feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
 .feedback {
     width: 366px;
-    background-color: #FFFFFF;
+    background-color: #FAFCFF;
     border-radius: 14px;
     padding: 24px;
+    border: 1px solid #F2EDED;
+     /* margin: 0px 4px 0px 4px; */
 }
 .feedback h3{
     font-size: 24px;
@@ -142,11 +150,38 @@ body {
 .feedback p{
     font-size: 16px;
     color: #1E1E1E;
-    margin-bottom: 14px;
+    margin-bottom: 6px;
     font-family: "Inter", sans-serif!important;
     line-height: 24px;
+    font-weight: 400;
 }
 .feedback-img {
     display: flex;
     margin-bottom: 24px;
+}
+.user-review {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.user-review img {
+    border-radius: 100%;
+    margin-right: 12px;
+}
+.review-text {
+   margin-top: 20px;
+}
+.review-text h4{
+    font-size: 14px;
+    color: #757575;
+    font-family: "Inter", sans-serif!important;
+}
+.review-text p{
+    font-size: 14px;
+    color: #B3B3B3;
+    font-family: "Inter", sans-serif!important;
+}
+.contact h1 {
+    font-size: 97px;
+    color: #000000;
 }
